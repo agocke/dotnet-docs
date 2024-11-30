@@ -45,6 +45,12 @@ items:
                 href: ../core/install/linux-sles.md
               - name: Installation script & binaries
                 href: ../core/install/linux-scripted-manual.md
+              - name: Install with Snap
+                items:
+                  - name: Runtime
+                    href: ../core/install/linux-snap-runtime.md
+                  - name: SDK
+                    href: ../core/install/linux-snap-sdk.md
           - name: Upgrade to a new .NET version
             href: ../core/install/upgrade.md
           - name: Remove outdated runtimes and SDKs
@@ -1450,12 +1456,14 @@ items:
                 items:
                   - name: The AssemblyBuilder class
                     href: runtime-libraries/system-reflection-emit-assemblybuilder.md
-                  - name: The MethodBuilder class
-                    href: runtime-libraries/system-reflection-emit-methodbuilder.md
-                  - name: The TypeBuilder class
-                    href: runtime-libraries/system-reflection-emit-typebuilder.md
                   - name: The DynamicMethod class
                     href: runtime-libraries/system-reflection-emit-dynamicmethod.md
+                  - name: The MethodBuilder class
+                    href: runtime-libraries/system-reflection-emit-methodbuilder.md
+                  - name: The PersistedAssemblyBuilder class
+                    href: runtime-libraries/system-reflection-emit-persistedassemblybuilder.md
+                  - name: The TypeBuilder class
+                    href: runtime-libraries/system-reflection-emit-typebuilder.md
           - name: Metadata and self-describing components
             items:
               - name: Overview

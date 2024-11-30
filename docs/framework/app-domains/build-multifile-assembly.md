@@ -22,6 +22,8 @@ ms.assetid: 261c5583-8a76-412d-bda7-9b8ee3b131e5
 ---
 # How to: Build a multifile assembly
 
+[!INCLUDE [net-framework-specific](../includes/net-framework-specific.md)]
+
 This article explains how to create a multifile assembly and provides code that illustrates each step in the procedure.
 
 > [!NOTE]
@@ -215,7 +217,7 @@ This article explains how to create a multifile assembly and provides code that 
    al Client.netmodule Stringer.netmodule /main:MainClientApp.Main /out:myAssembly.exe /target:exe
    ```
 
-   You can use the [MSIL Disassembler (Ildasm.exe)](../tools/ildasm-exe-il-disassembler.md) to examine the contents of an assembly, or determine whether a file is an assembly or a module.
+   You can use [IL Disassembler (Ildasm.exe)](../tools/ildasm-exe-il-disassembler.md) to examine the contents of an assembly, or determine whether a file is an assembly or a module.
 
 ## See also
 
